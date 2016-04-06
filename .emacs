@@ -1,4 +1,8 @@
+;;; package -- Summary
+;;; Commentary:
 (require 'package)
+
+;;; Code:
 (add-to-list 'package-archives
 	     '("melpa" . "https://melpa.org/packages/"))
 ;; For important compatiblilty libraries like cl-lib
@@ -13,6 +17,7 @@
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
+(global-linum-mode t)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -22,7 +27,7 @@
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
  '(custom-enabled-themes (quote (wombat)))
- '(package-selected-packages (quote (web-mode))))
+ '(package-selected-packages (quote (jedi flycheck magit web-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -43,3 +48,12 @@
 (setq web-mode-markup-indent-offset 2)
 (setq web-mode-css-indent-offset 2)
 (setq web-mode-code-indent-offset 4)
+
+(put 'downcase-region 'disabled nil)
+
+(add-hook 'after-init-hook #'global-flycheck-mode)
+(add-hook 'python-mode-hook 'jedi:setup)
+(setq jedi:complete-on-dot t)
+
+(provide '.emacs)
+;;; .emacs ends here
