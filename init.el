@@ -3,8 +3,9 @@
 (require 'package)
 
 ;;; Code:
-(add-to-list 'package-archives
-	     '("melpa" . "https://melpa.org/packages/"))
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+
 ;; For important compatiblilty libraries like cl-lib
 (add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/"))
 
@@ -56,4 +57,4 @@
 (setq jedi:complete-on-dot t)
 
 (provide '.emacs)
-;;; .emacs ends here
+;;; init.el ends here
