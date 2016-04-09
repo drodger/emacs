@@ -15,20 +15,33 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
-(menu-bar-mode -1)
+;;;(menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 (global-linum-mode t)
+(global-git-gutter-mode t)
+(windmove-default-keybindings)
+
+
+;; custom key mappings
+(global-set-key (kbd "C-x g") 'magit-status)
+(global-set-key (kbd "C-x p") 'git-gutter:previous-hunk)
+(global-set-key (kbd "C-x n") 'git-gutter:next-hunk)
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(initial-frame-alist (quote ((fullscreen . maximized))))
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
  '(custom-enabled-themes (quote (wombat)))
- '(package-selected-packages (quote (jedi flycheck magit web-mode))))
+ '(ido-mode (quote both) nil (ido))
+ '(package-selected-packages
+   (quote
+    (git-gutter yaml-mode json-mode ansible jedi flycheck magit web-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -46,8 +59,8 @@
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 
-(setq web-mode-markup-indent-offset 2)
-(setq web-mode-css-indent-offset 2)
+(setq web-mode-markup-indent-offset 4)
+(setq web-mode-css-indent-offset 4)
 (setq web-mode-code-indent-offset 4)
 
 (put 'downcase-region 'disabled nil)
@@ -55,6 +68,8 @@
 (add-hook 'after-init-hook #'global-flycheck-mode)
 (add-hook 'python-mode-hook 'jedi:setup)
 (setq jedi:complete-on-dot t)
+(require 'yaml-mode)
+(add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 
-(provide '.emacs)
+(provide 'init.el)
 ;;; init.el ends here
