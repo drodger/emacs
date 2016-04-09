@@ -1,0 +1,77 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/derek/code/ansible/roles/database/" . "handlers/")
+ ("/home/derek/code/ansible/roles/system/" . "tasks/")
+ ("/home/derek/" . ".emacs.d/")
+ ("/home/derek/code/ansible/roles/web/" . "tasks/")
+ ("/home/derek/code/ansible/roles/common/" . "tasks/")
+ ("/home/derek/code/ansible/roles/" . "common/")
+ ("/home/derek/code/ansible/" . "roles/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/derek/.emacs.d/"
+ "/home/derek/tmp/"
+ "/home/derek/code/ansible/roles/common/tasks/"
+ "/home/derek/code/ansible/roles/system/tasks/"
+ "/home/derek/code/ansible/roles/database/handlers/"
+ "/home/derek/code/ansible/roles/database/tasks/"
+ "/home/derek/code/ansible/roles/web/tasks/"
+ "/home/derek/code/ansible/roles/common/files/"
+ "/home/derek/code/ansible/roles/web/templates/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "erezadmin.conf"
+ "main.yml"
+ "vars.yml"
+ "python3.yml"
+ "sudoers.j2"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/derek/.emacs.d/" (22280 13570 602765 360000) ".python-environments/" "url/" "auto-save-list/" ".git/" "elpa/" "init.el" "ido.last~" "ido.last" "init.el~" "ac-comphist.dat" ".emacs~" "../" "./" "network-security.data")
+
+ ("/home/derek/tmp/" (22280 13152 921230 428000) "neovim-qt/" "RealPythonPart3.mobi" "neovim/" "vpn/" "kpacm3e.rar" "emacs/" "emacs-24.4/" ".cpswt/" "v0.8.1.tar.gz" "development.json" "kpacm3e.epub" "RealPythonPart2-v1.0.1.zip" "vpnbook/" "cron.log" "erezadmin.conf" "xscreensaver-5.32/" "RealPythonPart3.epub" "hostlist.json" "Font-Awesome/" "old_emacs/" "ctags/" "RealPythonPart1-v1.0.1.zip" "crashplan-install/" "ansible/" "keepassx-0.4.3/" "terminix/" ".spacemacs" "work_ansible/" "erez/" "st/" "RealPythonPart3-v1.0.1.zip" "vpneasynews/" "gtk3-terminator/" "../" "nerd-fonts/" "nethogs-0.8.1/" "./" "USS (Ubiquitous Synergy Seeker)/" "nyc-a01.ovpn" "all_old_emacs/" "RealPythonPart3.pdf")
+
+ ("/home/derek/code/ansible/roles/web/templates/" (22280 7804 127015 492000) "config.php.j2" "simplesaml.conf.j2" "authsources.php.j2" "module_cron.php.j2" "sudoers.j2" "erezlife.conf.j2" "../" "erezadmin.json.j2" "./" "httpd.conf.j2")
+
+ ("/home/derek/code/ansible/roles/common/files/" (22280 7804 127015 492000) "rabbit_passwords.yml" "saml_passwords.yml" "uservoice.yml" "shared_passwords.yml" "../" "vars.yml" "./")
+
+ ("/home/derek/code/ansible/roles/web/tasks/" (22280 12683 34552 762000) "erezadmin.yml" "main.yml" "saml.yml" "httpd.yml" "php.yml" "#main.yml#" "../" "./")
+
+ ("/home/derek/code/ansible/roles/database/handlers/" (22280 12683 34552 762000) "main.yml" "../" "./")
+
+ ("/home/derek/code/ansible/roles/common/tasks/" (22280 12680 54485 56000) "python3.yml" "main.yml" "../" "./")
+
+ ("/home/derek/code/ansible/roles/database/tasks/" (22280 7804 127015 492000) "main.yml" "../" "./")
+
+ ("/home/derek/code/ansible/roles/database/" (22132 23791 0 0) "handlers/" "tasks/" "templates/" "../" "./")
+
+ ("/home/derek/code/ansible/roles/system/tasks/" (22280 8212 423272 632000) "main.yml" "../" "./")
+
+ ("/home/derek/code/ansible/" (22280 7804 127015 492000) "aws_us.pem" "roles/" "requirements.txt" "ansible.log" "group_vars/" "hosts" ".git/" "erezlife.yml" "system.yml" "site.yml" "test_inventory/" "dbserver.yml" "../" "./" "ansible.cfg" ".gitignore" "host_vars/")
+
+ ("/home/derek/code/ansible/roles/system/" (22277 21492 0 0) "scripts/" "tasks/" "files/" "templates/" "../" "./")
+
+ ("/home/derek/" (22280 1520 744292 617000) ".racket/" ".JxBrowser/" ".torcs/" ".icedtea/" ".macromedia/" ".aws.json" ".android/" ".icons/" "Dropbox/" ".selected_editor" ".npmrc" ".gtk-bookmarks" ".virtualenvs/" ".ssh/" ".vimrc-bak" ".WebStorm6/" ".xchm" "projects/" ".gtkrc-2.0" ".dvdisaster" ".pulse-cookie" ".cddbslave/" "Calibre Library/" ".gstreamer-0.10/" ".fonts/" ".pgcli.log" ".apport-ignore.xml" ".nvidia-settings-rc" "nvim.rc" "neogit/" ".rkward/" ".gem/" "code/" ".scidvspc/" ".FBReader/" ".vimrc" "mbox" ".hplip/" ".gnome/" "CrashPlanEngine.pid" ".WebStorm7/" ".xsession-errors" ".nvim/" "synergy.conf" ".audacity-data/" ".dropbox-dist/" ".vim-bak/" ".install4j" "Videos/" ".PyCharm30/" ".ipython/" ".libreoffice/" "lantern_drodger.pgn" ".swt/" ".bash_prompt" ".sbt/" ".filezilla/" ".keychain/" ".dropbox-dist-new/" ".nv/" ".conkyrc" ".v8flags.4.6.85.31.derek.json" ".TrueCrypt/" ".mission-control/" ".thunderbird/" ".bashrc" ".Mathematica/" ".lastpass/" ".stellarium/" ".vim_bak/" ".bzr.log.old" "hosts" ".xbmc/" ".node-gyp/" ".psql_history" ".dvdstyler" ".gconfd/" ".jprofiler7/" ".quicksynergy/" ".mozilla/" ".argouml/" ".zcompdump" ".gegl-0.0/" ".unite/" ".rvm/" ".subversion/" ".steam/" ".cassandra.history" ".pyenv/" ".m2/" "virtualbox_vms/" ".Xauthority" ".fltk/" "SpiderOak Hive/" ".sqlite_history" ".lighttable/" ".vim-new/" ".neocomplcache/" ".Prismatik/" ".npm_lazy/" ".compiz/" ".asunder" ".openvr/" ".python_history" ".opera/" ".themes/" ".emacs.d/" ".gnome2_private/" ".sudo_as_admin_successful" ".visualvm/" ".asunder_album_title" "WebstormProjects/" ".dropbox/" ".viminfo" "Downloads/" ".compiz-1/" ".asunder_album_genre" ".ivy2/" ".pulse/" ".mysql_history" ".hgrc" ".vimrc-new" "Documents/" ".steampid" ".crashplan/" ".sabnzbd/" ".sane/" ".bash_profile.bak" ".xinputrc" ".ansible/" ".jline-jython.history" ".xine/" ".irssi/" ".local/" ".launchpadlib/" ".atom/" "andy_macbook/" ".zshrc" "lantern_engine_directory.ini" ".npm/" ".xboardrc" ".mplayer/" ".vimtags" ".nvimlog" ".rediscli_history" ".cpan/" ".tmux.conf" ".lein/" ".mc/" "kdenlive/" ".purple/" ".wine/" ".drjava" ".cups/" "multi_mine_settings.txt" ".scala_history" ".kde/" "My Chess Database/" ".pip/" ".gksu.lock" "site.retry" "lantern_credentials.txt" ".positech/" "zshrc.bak" ".wallch/" ".dub/" ".pki/" ".ICEauthority" ".bundler/" ".gnupg/" ".xmoto/" ".pylint.d/" ".gtk-recordmydesktop" "dlang/" ".gnome2/" ".gitconfig" ".slime-history.eld" "old_projects/" ".cddb/" ".idlerc/" "multi_settings.txt" "music/" ".gimp-2.8/" ".dbus/" ".gconf/" ".googleearth/" ".cache/" ".fontconfig/" ".xscreensaver" "bin/" ".TrueCrypt-lock-derek" "Pictures/" ".zlogin" ".vim-vis-mark" ".vuescanrc" ".nviminfo" ".composer/" ".steampath" ".zsh_history" ".esd_auth" ".bash_profile" ".MakeMKV/" ".BOINC Manager" ".bzr.log" ".raptor/" ".profile" ".mkshrc" ".subversion_IDEA/" "Desktop/" ".config/" ".xsel.log" ".qt/" ".emacs~" ".nvimrc" "Various artists.xspf" ".speech-dispatcher/" ".thumbnails/" ".onboard/" ".gvfs/" ".tagtoolrc" ".nbprofiler/" ".scid/" ".distlib/" ".hardinfo/" ".xsession-errors.old" "layout" ".asunder_album_artist" ".synergy/" ".dircolors" ".electron/" ".gphoto/" ".dvdcss/" ".xscreensaver-getimage.cache" ".dmrc" "Programs/" "tmp/" ".adobe/" ".lesshst" ".pan2/" ".bash_history" ".avidemux/" ".oldpanel/" ".netbeans/" ".gimp-2.6/" ".VirtualBox/" ".kiki/" ".mlterm/" ".python-eggs/" ".uml/" ".rpmdb/" "erezlife.retry" ".thumb/" ".gitignore" ".remmina/" ".kodos/" ".Skype/" ".java/" ".pgclirc" ".cssed/" ".vuescan/" ".ultracopier/" ".rnd" ".vim/" "../" "./")
+
+ ("/home/" (21319 5950 0 0) "lost+found/" "derek/" "chrome/" "guest/" "../" "couchbase/" "tmp/" "./" "ubuntu-builder/")
+
+ ("/home/derek/code/ansible/roles/web/" (22214 23170 0 0) "handlers/" "tasks/" "files/" "templates/" "../" "./")
+
+ ("/home/derek/code/ansible/roles/common/" (22132 23791 0 0) "tasks/" "files/" "../" "./")
+
+ ("/home/derek/code/ansible/roles/" (22156 4901 0 0) "web/" "system/" "../" "common/" "./" "database/")
+
+ ("/home/derek/code/" (22279 58020 192369 305000) "sicp/" "Projects/" "ansible.old/" "ansible.bak/" "kata/" "html/" "lisp/" "Java/" "topcoder/" "ansible.tgz" "project_euler/" "misc/" "django/" "clojure/" "python/" "react/" "ansible/" "javascript/" "apache2.configs.tar.gz" "j2admin.tgz" "cplus/" "devslant/" "udacity/" "media/" "../" "php/" "tmp/" "./" "python_devs.txt" "NeHe/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
