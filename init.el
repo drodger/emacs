@@ -21,12 +21,13 @@
 (global-linum-mode t)
 (global-git-gutter-mode t)
 (windmove-default-keybindings)
-
+(setq ido-create-new-buffer 'always)
 
 ;; custom key mappings
 (global-set-key (kbd "C-x g") 'magit-status)
 (global-set-key (kbd "C-x p") 'git-gutter:previous-hunk)
 (global-set-key (kbd "C-x n") 'git-gutter:next-hunk)
+(fset 'yes-or-no-p 'y-or-n-p)
 
 
 (custom-set-variables
